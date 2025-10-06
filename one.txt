@@ -1,1 +1,7 @@
-hiii
+cd "C:\Users\MTL1013\OneDrive - Middleware Talents Limited\Desktop\learn\github_learning\task_!"
+git init
+git add .
+git commit -m "initial commit"
+git remote remove origin 2>nul
+git remote add origin https://github.com/yaswanthkumarch/github_learning_branch.git
+git push -u origin main --force
